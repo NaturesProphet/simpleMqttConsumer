@@ -3,6 +3,10 @@
 Um script simples para consumir as mensagens de um servidor de MQTT
 
 ## Testando
+> Instale as dependências antes de começar
+```
+npm install
+```
 
 1.  Copie o arquivo .env.example com o novo nome ".env" e deixe o na raiz
 2.  Edite os valores das variáveis de ambiente lá dentro para ficar compatível com seu cenário de uso.

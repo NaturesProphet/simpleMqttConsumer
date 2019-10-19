@@ -1,0 +1,31 @@
+{
+  "name": "simplemqttconsumer",
+  "version": "0.0.0",
+  "description": "consumidor mqtt",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "pub": "node tools/publisher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaturesProphet/simpleMqttConsumer.git"
+  },
+  "keywords": [
+    "mqtt",
+    "rabbitmq",
+    "iot",
+    "topic",
+    "mensageria"
+  ],
+  "author": "Mateus Garcia Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaturesProphet/simpleMqttConsumer/issues"
+  },
+  "homepage": "https://github.com/NaturesProphet/simpleMqttConsumer#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqtt": "^3.0.0"
+  }
+}
